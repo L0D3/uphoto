@@ -19,6 +19,9 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+gem 'unicorn'
+gem 'capistrano'
+
 
 gem 'jquery-rails'
 
