@@ -1,3 +1,4 @@
+require "rvm/capistrano"
 require "bundler/capistrano"
 
 server "134.96.240.206", :web, :app, :db, primary: true
@@ -9,7 +10,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:scusy89/#{application}.git"
+set :repository, "git@github.com:scusy89/uphoto.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
